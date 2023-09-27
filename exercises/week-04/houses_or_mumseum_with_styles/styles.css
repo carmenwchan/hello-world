@@ -38,6 +38,7 @@ p {
     font-size: 18px;
     line-height: 22.9px;
     font-weight: normal;
+    letter-spacing: .02px;
 }
 
 .smallitalic {
@@ -52,7 +53,7 @@ p {
     font-weight: 550;
 }
 
-a {
+.link {
     position: absolute;
     top: 20px;
     right: 60px;
@@ -65,7 +66,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.link:hover {
     position: absolute;
     top: 20px;
     right: 60px;
@@ -77,4 +78,24 @@ a:hover {
     color:#00d200;
     text-decoration: underline;
     transform: translateY(9px) translateX(9px);
+}
+
+.outlink {
+    margin-left: 325px;
+    font-size: 18px;
+    line-height: 22.9px;
+    font-weight: normal;
+    color: #00d200;
+    text-decoration: none;
+    letter-spacing: .02px;
+}
+
+.outlink:hover {
+    margin-left: 325px;
+    font-size: 18px;
+    line-height: 22.9px;
+    font-weight: normal;
+    color: #00d200;
+    text-decoration: underline;
+    letter-spacing: .02px;
 }
