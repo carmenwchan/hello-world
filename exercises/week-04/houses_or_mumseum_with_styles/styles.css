@@ -80,7 +80,7 @@ p {
     transform: translateY(9px) translateX(9px);
 }
 
-.outlink {
+.out {
     margin-left: 325px;
     font-size: 18px;
     line-height: 22.9px;
@@ -90,7 +90,7 @@ p {
     letter-spacing: .02px;
 }
 
-.outlink:hover {
+.out:hover {
     margin-left: 325px;
     font-size: 18px;
     line-height: 22.9px;
