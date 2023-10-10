@@ -51,7 +51,7 @@ body {
 }
 
 .section2 {
-    background-image: linear-gradient(#f3f5ff 1%, #ffffff);
+    background-image: linear-gradient(#eff2ff 1%, #ffffff);
 }
 
 .heading{
@@ -133,14 +133,5 @@ p {
     font-weight: normal;
     color: #00d200;
     text-decoration: underline;
-    letter-spacing: .02px;
-}
-
-.out:after {
-    font-size: 18px;
-    line-height: 22.9px;
-    font-weight: normal;
-    color: #00d200;
-    text-decoration: line-through;
     letter-spacing: .02px;
 }
