@@ -1,0 +1,60 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.section1, .section2{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.section1::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../houses_or_mumseum_with_styles_v2/img/VIDRONOLBB.png) top center;
+    background-size: cover;
+    transform: translateZ(-1px) scale(2.2);
+    filter: blur(2px);
+}
+
+.section1::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../houses_or_mumseum_with_styles_v2/img/LBB2.png") top center;
+    background-size: 100vw;
+}
+
+.section2 {
+    background-image: linear-gradient(#6D80E6 1%, #ffffff);
+}
+
+.heading{
+    top: 25%;
+    left: 30%;
+    position: absolute;s
+    text-align: center;
+    font-family: 'Union', sans-serif;
+    font-weight: lighter;
+    font-size: 6vw;
+    letter-spacing: 4px;
+    color: white;
+    transform: scale(1,1.1) translate(-50%. 10%);
+}
+
