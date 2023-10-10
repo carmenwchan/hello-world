@@ -68,8 +68,9 @@ body {
 }
 
 p {
-    margin-left: 325px;
-    margin-right: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
     font-size: 18px;
     line-height: 22.9px;
     font-weight: normal;
@@ -118,7 +119,6 @@ p {
 }
 
 .out {
-    margin-left: 325px;
     font-size: 18px;
     line-height: 22.9px;
     font-weight: normal;
@@ -128,11 +128,19 @@ p {
 }
 
 .out:hover {
-    margin-left: 325px;
     font-size: 18px;
     line-height: 22.9px;
     font-weight: normal;
     color: #00d200;
     text-decoration: underline;
+    letter-spacing: .02px;
+}
+
+.out:after {
+    font-size: 18px;
+    line-height: 22.9px;
+    font-weight: normal;
+    color: #00d200;
+    text-decoration: line-through;
     letter-spacing: .02px;
 }
