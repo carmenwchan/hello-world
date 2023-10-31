@@ -42,16 +42,6 @@ body {
     filter: blur(2px);
 }
 
-.section1::after{
-    content:"";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: url("../week-05/houses_or_mumseum_with_styles_v2/img/LBB2.png") top center;
-    background-size: 100vw;
-    background-repeat: no-repeat;
-}
-
 .section2 {
     background-image: linear-gradient(#eff2ff 1%, #ffffff);
 }
@@ -224,15 +214,10 @@ p {
 
 -----
 @media only screen and (max-width : 499px) {
-    .section1::after{
-        content:"";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background: url("../week-05/houses_or_mumseum_with_styles_v2/img/LBB2.png") bottom center !important;
-        background-size: 100vw;
-        background-repeat: no-repeat;
+    .section1:{
+    width: 80%;
     }
+}
 
  
  @media only screen and (min-width : 500) {
