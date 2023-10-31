@@ -42,6 +42,15 @@ body {
     filter: blur(2px);
 }
 
+.section1::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../houses_or_mumseum_with_styles_v2/img/LBB2.png") top center;
+    background-size: 100vw;
+}
+
 .section2 {
     background-image: linear-gradient(#eff2ff 1%, #ffffff);
 }
