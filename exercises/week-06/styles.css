@@ -49,6 +49,7 @@ body {
     position: absolute;
     background: url("../houses_or_mumseum_with_styles_v2/img/LBB2.png") top center;
     background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 .section2 {
