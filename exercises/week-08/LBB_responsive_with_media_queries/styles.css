@@ -119,6 +119,7 @@ img {
     object-fit: cover;
     border-top-right-radius: 0.75em;
     border-top-left-radius: 0.75em;
+    object-position: center top;
 }
 
 .out {
