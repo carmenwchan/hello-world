@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+
+/*--------------------*/
+/* STRUCTURE */
+.container {
+    display:flex;
+    flex-direction:column;
+} 
+
+
+/*--------------------*/
+/* FIRST SECTION */
+  section.first {
+    height: 100vh;
+    width: 100vw;
+    background:white;
+}
+
+.grid {
+    display: grid ;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(14.28%, 1fr));
+    grid-template-areas:
+        "a b c text e"
+        "a b c d e"
+        "a b c d e"
+        "a b c d e"
+        "a b c d e"
+        "a b c d e"
+        "a b c d e";
+    justify-items: center;
+}
+
+.image-container1 {
+    grid-column: 1 /span 1;
+    grid-row: 2 /span 5;
+    grid-template-areas: a;
+}
+
+.image-container2 {
+    grid-column: 2 /span 1;
+    grid-row: 1 /span 5;
+    grid-template-areas: b;
+}
+
+.image-container3 {
+    grid-column: 3 /span 1;
+    grid-row: 2 /span 5;
+    grid-template-areas: c;
+}
+
+.image-container4 {
+    grid-column: 4 /span 1;
+    grid-row: 3 /span 5;
+    grid-template-areas: c;
+    overflow: hidden;
+}
+
+.image-container5 {
+    grid-column: 5 /span 1;
+    grid-row: 1 /span 5;
+    grid-template-areas: c;
+}
+
+img{
+    max-width:200%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    }
+
+
+/*--------------------*/
+/* SECOND SECTION */
+section.second {
+    background-color: #white;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*--------------------*/
+/* TEXT STYLES */
+  p{
+    color: #494949;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  h4 {
+    color: #F6566D;
+    font-size: 16px;
+    line-height: 24px;
+    word-break: break-all;
+  }
+  
+
+  /*--------------------*/
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+
+  .row,
+  .row > .column {
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    display: none; /* Hide columns by default */
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+ 
+  /*--------------------*/
+  /* CONTENT */
+  .content {
+    background-color: white;
+    margin: 5px;
+    padding: 20px;
+    border: 1px dashed #F6566D;
+    border-radius: 20px;
+  }
+
+  .poster {
+    object-fit: contain;
+    overflow: none;
+    display: block;
+    border-radius: 10px;
+    }
+  
+  .show {
+    display: block;
+  }
+  
+
+  /*--------------------*/
+  /* FILTER BUTTONS */
+  .btn {
+    font-family: 'Raleway', sans-serif;
+    color: #F6566D;
+    width: 85px;
+    height: 35px;
+    margin-left: 10px;
+    border: 2px solid #F6566D;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: translateY(6px) translateX(6px);
+    box-shadow: 3px 3px #F6566D;
+    transition: .5s ease;
+    text-decoration: underline;
+  }
+  
+  .btn:active {
+    background-color: #F6566D;
+    color: white;
+  }
+  
+  /*--------------------*/
+  .btn-genre {
+    font-family: 'Raleway', sans-serif;
+    color: #F6566D;
+    width: 85px;
+    height: 35px;
+    margin-left: 10px;
+    border: 2px solid #F6566D;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn-genre:hover {
+    transform: translateY(6px) translateX(6px);
+    box-shadow: 3px 3px #F6566D;
+    transition: .5s ease;
+    text-decoration: underline;
+  }
+  
+  .btn-genre:focus {
+    background-color: #F6566D;
+    color: white;
+  }
+
+
+  /*--------------------*/
+  .btn-day{
+    font-family: 'Raleway', sans-serif;
+    color: #FCAFBA;
+    width: 85px;
+    height: 35px;
+    margin-left: 10px;
+    border: 2px solid #FCAFBA;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn-day:hover {
+    transform: translateY(6px) translateX(6px);
+    box-shadow: 3px 3px #FCAFBA;
+    transition: .5s ease;
+    text-decoration: underline;
+  }
+  
+  .btn-day:focus {
+    background-color: #FCAFBA;
+    color: white;
+  }
+
+    /*--------------------*/
+    .btn-theater{
+        font-family: 'Raleway', sans-serif;
+        color: #FF9671;
+        width: 85px;
+        height: 35px;
+        margin-left: 10px;
+        border: 2px solid #FF9671;
+        border-radius: 12px;
+        background-color: white;
+        cursor: pointer;
+      }
+      
+      .btn-theater:hover {
+        transform: translateY(6px) translateX(6px);
+        box-shadow: 3px 3px #FF9671;
+        transition: .5s ease;
+        text-decoration: underline;
+      }
+      
+      .btn-theater:focus {
+        background-color: #FF9671;
+        color: white;
+      }
+    

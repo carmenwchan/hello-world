@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARMEN'S 2023 MOVIES IN REVIEW</title>
+    <link rel="icon" type="image/x-icon" href="../project-03/img/00_Clapboard Emoji.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <section class="first grid">
+        <figure class="image-container1">
+            <img src="../project-03/img/00_Orange-Stub-1.gif"alt="">
+        </figure>
+
+        <figure class="image-container2">
+            <img src="../project-03/img/00_Pink-Stub-1.gif"alt="">
+        </figure>
+
+        <figure class="image-container3">
+            <img src="../project-03/img/00_Orange-Stub-2.gif"alt="">
+        </figure>
+
+        <figure class="image-container4">
+            <img src="../project-03/img/00_Pink-Stub-2.gif"alt="">
+        </figure>
+
+            <figure class="image-container5">
+                <img src="../project-03/img/00_Orange-Stub-3.gif"alt="">
+            </figure> 
+        
+
+</div>
+
+<secton class="second">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">ALL</button>
+
+    
+      <button class="btn-genre" onclick="filterSelection('action')"> ACTION</button>
+      <button class="btn-genre" onclick="filterSelection('animated')">ANIMATED</button>
+      <button class="btn-genre" onclick="filterSelection('comedy')">COMEDY</button>
+      <button class="btn-genre" onclick="filterSelection('drama')">DRAMA</button>
+      <button class="btn-genre" onclick="filterSelection('fantasy')">FANTASY</button>
+      <button class="btn-genre" onclick="filterSelection('horror')">HORROR</button>
+      <button class="btn-genre" onclick="filterSelection('thriller')">THRILLER</button>
+      <button class="btn-genre" onclick="filterSelection('sci-fi')">SCI-FI</button>
+
+      <br>
+      <br>
+
+      <button class="btn-day" onclick="filterSelection('sunday')">SUN</button>
+      <button class="btn-day" onclick="filterSelection('monday')">MON</button>
+      <button class="btn-day" onclick="filterSelection('tuesday')">TUE</button>
+      <button class="btn-day" onclick="filterSelection('wednesday')">WED</button>
+      <button class="btn-day" onclick="filterSelection('thursday')">THU</button>
+      <button class="btn-day" onclick="filterSelection('friday')">FRI</button>
+      <button class="btn-day" onclick="filterSelection('saturday')">SAT</button>
+
+      <br>
+      <br>
+
+      <button class="btn-theater" onclick="filterSelection('34th')">34TH ST</button>
+      <button class="btn-theater" onclick="filterSelection('84th')">84TH ST</button>
+      <button class="btn-theater" onclick="filterSelection('ts')">EMPIRE</button>
+      <button class="btn-theater" onclick="filterSelection('ls')">LINC CEN</button>
+      <button class="btn-theater" onclick="filterSelection('kb')">KIPS BAY</button>
+      <button class="btn-theater" onclick="filterSelection('tiff')">TIFF</button>
+      <button class="btn-theater" onclick="filterSelection('misc')">MISC</button>
+
+
+    </div>
+
+
+    <script src="../project-03/main.js"></script>
+
+ <!-- START MOVIE POSTER GRID -->
+<div class="row">
+    <div class="column drama, saturday, ls">
+      <div class="content">
+        <figure class="poster">
+        <img src="../project-03/img/01_The Whalerz.jpg" alt="The Whale" style="width:100%">
+        </figure>
+        <br>
+        <h4>The Whale</h4>
+        <p>Saturday, January 7, 2023</p>
+        <p>AMC Lincoln Square 13</p>
+        <p>Drama</p>
+        <p>117 min</p>
+      </div>
+    </div>
+
+    <div class="column horror, sunday, ls">
+      <div class="content">
+        <figure class="poster">
+        <img src="../project-03/img/02_M3GANrz.jpg" alt="M3GAN" style="width:100%">
+         </figure>
+         <br>
+        <h4>M3GAN</h4>
+        <p>Sunday, January 8, 2023</p>
+        <p>AMC Lincoln Square 13</p>
+        <p>Horror</p>
+        <p>102 min</p>
+      </div>
+    </div>
+
+    <div class="column animated, monday, 34th">
+      <div class="content">
+        <figure class="poster">
+        <img src="../project-03/img/03_Puss in Boots The Last Wishrz.jpg" alt="Puss in Boots The Last Wish" style="width:100%">
+        </figure>
+        <br>
+        <h4>The Last Wish</h4>
+        <p>Monday, January 9, 2023</p>
+        <p>AMC 34th Street 14</p>
+        <p>Animated</p>
+        <p>100 min</p>
+      </div>
+    </div>
+  
+    <div class="column action, saturday, ls">
+      <div class="content">
+        <figure class="poster">
+        <img src="../project-03/img/04_Planerz.jpg" alt="Plane" style="width:100%">
+        </figure>
+        <br>
+        <h4>Plane</h4>
+        <p>Saturday, January 14, 2023</p>
+        <p>AMC Lincoln Square 13</p>
+        <p>Action</p>
+        <p>107 min</p>
+      </div>
+    </div>
+
+    <div class="column drama, sunday, ls">
+      <div class="content">
+        <figure class="poster">
+        <img src="../project-03/img/05_Babylonrz.jpg" alt="Babylon" style="width:100%">
+        </figure>
+        <br>
+        <h4>Babylon</h4>
+        <p>Sunday, January 15, 2023</p>
+        <p>AMC Lincoln Square 13</p>
+        <p>Drama</p>
+        <p>189 min</p>
+      </div>
+    </div>
+
+    <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/06_Women Talkingrz.jpg" alt="Women Talking" style="width:100%">
+        </figure>
+          <br>
+          <h4>Women Talking</h4>
+          <p>Friday, January 20, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>104 min</p>
+        </div>
+      </div>
+
+      <div class="column thriller, friday, 84th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/07_Missingrz.jpg" alt="Missing" style="width:100%">
+        </figure>
+          <br>
+          <h4>Missing</h4>
+          <p>Friday, January 20, 2023</p>
+          <p>AMC 84th Street 6</p>
+          <p>Drama</p>
+          <p>104 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, monday, ls">
+        <div class="content">
+         <figure class="poster">
+          <img src="../project-03/img/08_Infinity Poolrz.jpg" alt="Infinity Pool" style="width:100%">
+         </figure>
+          <br>
+          <h4>Infinity Pool</h4>
+          <p>Monday, January 23, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Horror</p>
+          <p>111 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/09_Alice, Darlingrz.jpg" alt="Alice, Darling" style="width:100%">
+        </figure>
+          <br>
+          <h4>Alice, Darling</h4>
+          <p>Friday, January 27, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>90 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/10_Closerz.jpg" alt="Close" style="width:100%">
+        </figure>
+          <br>
+          <h4>Close</h4>
+          <p>Saturday, January 28, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>135 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, monday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/Knock at the Cabinrz.jpg" alt="Knock at the Cabin" style="width:100%">
+        </figure>
+          <br>
+          <h4>Knock at the Cabin</h4>
+          <p>Monday, January 30, 2023</p>
+          <p>Jazz at Lincoln Center</p>
+          <p>Horror</p>
+          <p>140 min</p>
+        </div>
+      </div>
+
+      <div class="column sci-fi, friday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/11_The Wandering Earth IIrz.jpg" alt="The Wandering Earth 2" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Wandering Earth 2</h4>
+          <p>Friday, February 3, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Drama</p>
+          <p>175 min</p>
+        </div>
+      </div>
+
+      <div class="column comedy, tuesday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/12_Triangle of Sadnessrz.jpg" alt="Triangle of Sadness" style="width:100%">
+        </figure>
+          <br>
+          <h4>Triangle of Sadness</h4>
+          <p>Tuesday, February 7, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>170 min</p>
+        </div>
+      </div>
+
+      <div class="column comedy, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/13_80 for Bradyrz.jpg" alt="80 for Brady" style="width:100%">
+        </figure>
+          <br>
+          <h4>80 for Brady</h4>
+          <p>Friday, February 10, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>98 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/14_Magic Mike's Last Dancerz.jpg" alt="Magic Mike: The Last Dance" style="width:100%">
+        </figure>
+          <br>
+          <h4>Magic Mike: The Last Dance</h4>
+          <p>Friday, February 11, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>115 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/15_Of An Agerz.jpg" alt="Of An Age" style="width:100%">
+        </figure>
+          <br>
+          <h4>Of An Age</h4>
+          <p>Thursday, February 16, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>114 min</p>
+        </div>
+      </div>
+
+      <div class="column thriller, saturday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/16_Hidden Bladerz.jpg" alt="Hidden Blade" style="width:100%">
+        </figure>
+          <br>
+          <h4>Hidden Blade</h4>
+          <p>Saturday, February 18, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Thriller</p>
+          <p>128 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, wednesday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/17_Emilyrz.jpg" alt="Emily" style="width:100%">
+        </figure>
+          <br>
+          <h4>Emily</h4>
+          <p>Wednesday, February 22, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>130 min</p>
+        </div>
+      </div>
+
+      <div class="column thriller, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/18_Cocaine Bearrz.jpg" alt="Cocaine Bear" style="width:100%">
+        </figure>
+          <br>
+          <h4>Cocaine Bear</h4>
+          <p>Thursday, February 23, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Thriller</p>
+          <p>95 min</p>
+        </div>
+      </div>
+
+      <div class="column thriller, friday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/The Origin of Evilrz.jpg" alt="The Origin of Evil" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Origin of Evil</h4>
+          <p>Friday, March 3, 2023</p>
+          <p>Walter Reade Theater</p>
+          <p>Thriller</p>
+          <p>125 min</p>
+        </div>
+      </div>
+    
+      <div class="column action, saturday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/19_Operation Fortune Ruse de guerrerz.jpg" alt="Operation Fortune: Ruse de guerre" style="width:100%">
+        </figure>
+          <br>
+          <h4>Operation Fortune</h4>
+          <p>Saturday, March 4, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Action</p>
+          <p>114 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, sunday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/20_Creed IIIrz.jpg" alt="Creed III" style="width:100%">
+        </figure>
+          <br>
+          <h4>Creed III</h4>
+          <p>Sunday, March 5, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>117 min</p>
+        </div>
+      </div>
+
+      <div class="column fantasy, tuesday, 84th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/21_Ant Man and the Wasp Quantumaniarz.jpg" alt="Ant Man and the Wasp: Quantumania" style="width:100%">
+        </figure>
+          <br>
+          <h4>Quantumania</h4>
+          <p>Tuesday, March 7, 2023</p>
+          <p>AMC 84th Street 6</p>
+          <p>Fantasy</p>
+          <p>125 min</p>
+        </div>
+      </div>
+
+
+      <div class="column sci-fi, friday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/22_65rz.jpg" alt="65" style="width:100%">
+        </figure>
+          <br>
+          <h4>65</h4>
+          <p>Friday, March 17, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Sci-fi</p>
+          <p>90 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/23_Scream VIrz.jpg" alt="Scream VI" style="width:100%">
+        </figure>
+          <br>
+          <h4>Scream VI</h4>
+          <p>Saturday, March 18, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Horror</p>
+          <p>123 min</p>
+        </div>
+      </div>
+
+      <div class="column action, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/24_John Wick Chapter 4rz.jpg" alt="John Wick: Chapter 4" style="width:100%">
+        </figure>
+          <br>
+          <h4>John Wick: Chapter 4</h4>
+          <p>Thursday, March 30, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Action</p>
+          <p>169 min</p>
+        </div>
+      </div>
+
+      <div class="column fantasy, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/25_Dungeons and Dragons Honor Among Thievesrz.jpg" alt="Dungeons and Dragons: Honor Among Thieves" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dungeons and Dragons</h4>
+          <p>Friday, March 31, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>140 min</p>
+        </div>
+      </div>
+
+      <div class="column fantasy, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/25_Dungeons and Dragons Honor Among Thievesrz.jpg" alt="Dungeons and Dragons: Honor Among Thieves" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dungeons and Dragons</h4>
+          <p>Saturday, April 1, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>140 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/27_Showing Uprz.jpg" alt="Showing Up" style="width:100%">
+        </figure>
+          <br>
+          <h4>Showing Up</h4>
+          <p>Friday, April 7, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>137 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, tuesday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/28_Renfieldrz.jpg" alt="Renfield" style="width:100%">
+        </figure>
+          <br>
+          <h4>Renfield</h4>
+          <p>Tuesday, April 25, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Horror</p>
+          <p>93 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/29_Beau is Afraidrz.jpg" alt="Beau is Afraid" style="width:100%">
+        </figure>
+          <br>
+          <h4>Beau is Afraid</h4>
+          <p>Thursday, April 27, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Horror</p>
+          <p>179 min</p>
+        </div>
+      </div>
+
+      <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/30_Airrz.jpg" alt="Air" style="width:100%">
+        </figure>
+          <br>
+          <h4>Air</h4>
+          <p>Friday, April 28, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>112 min</p>
+        </div>
+      </div>
+ 
+      <div class="column animated, monday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/31_Suzumerz.jpg" alt="Suzume" style="width:100%">
+        </figure>
+          <br>
+          <h4>Suzume</h4>
+          <p>Monday, May 1, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Animated</p>
+          <p>122 min</p>
+        </div>
+      </div>
+    
+      <div class="column horror, saturday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/32_Evil Dead Riserz.jpg" alt="Evil Dead Rises" style="width:100%">
+        </figure>
+          <br>
+          <h4>Evil Dead Rises</h4>
+          <p>Saturday, May 6, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Horror</p>
+          <p>96 min</p>
+        </div>
+      </div>
+    
+      <div class="column action, tuesday, kb">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/33_Guy Ritchie's The Covenantrz.jpg" alt="The Covenant" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Covenant</h4>
+          <p>Tuesday, May 9, 2023</p>
+          <p>AMC Kips Bay 15</p>
+          <p>Action</p>
+          <p>125 min</p>
+        </div>
+      </div>
+
+      <div class="column fantasy, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/34_Guardians of the Galaxy Vol 3rz.jpg" alt="Guardians of the Galaxy" style="width:100%">
+        </figure>
+          <br>
+          <h4>Guardians of the Galaxy</h4>
+          <p>Thursday, May 10, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>149 min</p>
+        </div>
+      </div>
+
+      <div class="column fantasy, sunday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/34_Guardians of the Galaxy Vol 3rz.jpg" alt="Guardians of the Galaxy" style="width:100%">
+        </figure>
+          <br>
+          <h4>Guardians of the Galaxy</h4>
+          <p>Sunday, May 14, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Fantasy</p>
+          <p>149 min</p>
+        </div>
+      </div>
+
+      <div class="column comedy, sunday, kb">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/36_Fool's Paradiserz.jpg" alt="Fool's Paradise" style="width:100%">
+        </figure>
+          <br>
+          <h4>Fool's Paradise</h4>
+          <p>Sunday, May 14, 2023</p>
+          <p>AMC Kips Bay 15</p>
+          <p>Comedy</p>
+          <p>97 min</p>
+        </div>
+      </div>
+
+      <div class="column animated, friday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/37_Spider Man Across the Spider Verserz.jpg" alt="Spider Man Across the Spider Verse" style="width:100%">
+        </figure>
+          <br>
+          <h4>Across the Spider Verse</h4>
+          <p>Friday, June 2, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Animated</p>
+          <p>136 min</p>
+        </div>
+      </div>
+
+      <div class="column horror, saturday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/38_The Boogeymanrz.jpg" alt="The Boogeyman" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Boogeyman</h4>
+          <p>Saturday, June 17, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Horror</p>
+          <p>98 min</p>
+        </div>
+      </div>
+
+      <div class="column comedy, sunday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/39_Asteroid Cityrz.jpg" alt="Asteroid City" style="width:100%">
+        </figure>
+          <br>
+          <h4>Asteroid City</h4>
+          <p>Sunday, June 18, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>105 min</p>
+        </div>
+      </div>  
+      
+      <div class="column drama, thursday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/40_Past Livesrz.jpg" alt="Past Lives" style="width:100%">
+        </figure>
+          <br>
+          <h4>Past Lives</h4>
+          <p>Thursday, June 22, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Drama</p>
+          <p>106 min</p>
+        </div>
+      </div>    
+
+      <div class="column comedy, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/41_No Hard Feelingsrz.jpg" alt="No Hard Feelings" style="width:100%">
+        </figure>
+          <br>
+          <h4>No Hard Feelings</h4>
+          <p>Saturday, June 24, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>103 min</p>
+        </div>
+      </div>    
+
+      <div class="column action, sunday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/42_Fast Xrz.jpg" alt="Fast X" style="width:100%">
+        </figure>
+          <br>
+          <h4>Fast X</h4>
+          <p>Sunday, June 25, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Action</p>
+          <p>141 min</p>
+        </div>
+      </div>    
+
+      <div class="column action, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/43_Indiana Jones and the Dial of Destinyrz.jpg" alt="Indiana Jones and the Dial of Destiny" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dial of Destiny</h4>
+          <p>Friday, June 30, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Action</p>
+          <p>154 min</p>
+        </div>
+      </div>      
+
+      <div class="column comedy, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/44_Joy Riderz.jpg" alt="Joy Ride" style="width:100%">
+        </figure>
+          <br>
+          <h4>Joy Ride</h4>
+          <p>Thursday, July 6, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>92 min</p>
+        </div>
+      </div>      
+
+      <div class="column action, monday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/45_Mission Impossible Dead Reckoning Part 1rz.jpg" alt="Mission Impossible Dead Reckoning Part 1" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dead Reckoning Part 1</h4>
+          <p>Monday, July 11, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Action</p>
+          <p>163 min</p>
+        </div>
+      </div>    
+
+      <div class="column comedy, thursday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/46_Barbierz.jpg" alt="Barbie" style="width:100%">
+        </figure>
+          <br>
+          <h4>Barbie</h4>
+          <p>Thursday, July 20, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Comedy</p>
+          <p>114 min</p>
+        </div>
+      </div>    
+
+      <div class="column drama, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/47_Oppenheimerrz.jpg" alt="Oppenheimer" style="width:100%">
+        </figure>
+          <br>
+          <h4>Oppenheimer</h4>
+          <p>Thursday, July 20, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>180 min</p>
+        </div>
+      </div>    
+
+      <div class="column horror, saturday, kb">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/48_Insidious The Red Doorrz.jpg" alt="Insidious The Red Door" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Red Door</h4>
+          <p>Saturday, July 22, 2023</p>
+          <p>AMC Kips Bay 15</p>
+          <p>Horror</p>
+          <p>107 min</p>
+        </div>
+      </div>    
+
+      <div class="column horror, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/49_Haunted Mansionrz.jpg" alt="Haunted Mansion" style="width:100%">
+        </figure>
+          <br>
+          <h4>Haunted Mansion</h4>
+          <p>Friday, July 28, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Horror</p>
+          <p>122 min</p>
+        </div>
+      </div>    
+
+      <div class="column comedy, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/50_Theater Camprz.jpg" alt="Theater Camp" style="width:100%">
+        </figure>
+          <br>
+          <h4>Theater Camp</h4>
+          <p>Saturday, July 29, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>88 min</p>
+        </div>
+      </div>    
+
+      <div class="column horror, saturday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/51_Talk to Merz.jpg"alt="Talk to Me" style="width:100%">
+        </figure>
+          <br>
+          <h4>Talk to Me</h4>
+          <p>Saturday, July 29, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Horror</p>
+          <p>95 min</p>
+        </div>
+      </div>    
+
+      <div class="column animated, friday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/52_Teenage Mutant Ninja Turtles Mutant Mayhemrz.jpg"alt="Teenage Mutant Ninja Turtles Mutant Mayhem" style="width:100%">
+        </figure>
+          <br>
+          <h4>Mutant Mayhem</h4>
+          <p>Friday, August 4, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Animated</p>
+          <p>99 min</p>
+        </div>
+      </div>    
+
+      <div class="column drama, saturday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/47_Oppenheimerrz.jpg"alt="Oppenheimer" style="width:100%">
+        </figure>
+          <br>
+          <h4>Oppenheimer</h4>
+          <p>Saturday, August 5, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Drama</p>
+          <p>180 min</p>
+        </div>
+      </div>   
+
+      <div class="column comedy, sunday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/54_Shortcomingsrz.jpg"alt="Shortcomings" style="width:100%">
+        </figure>
+          <br>
+          <h4>Shortcomings</h4>
+          <p>Sunday, August 6, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>92 min</p>
+        </div>
+      </div>   
+
+      <div class="column sci-fi, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/55_Julesrz.jpg"alt="Jules" style="width:100%">
+        </figure>
+          <br>
+          <h4>Jules</h4>
+          <p>Friday, August 11, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Sci-fi</p>
+          <p>87 min</p>
+        </div>
+      </div>   
+
+      <div class="column action, thursday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/56_Gran Turismo Based on a True Storyrz.jpg"alt="Gran Turismo: Based on a True Story" style="width:100%">
+        </figure>
+          <br>
+          <h4>Grand Turismo</h4>
+          <p>Thursday, August 31, 2023</p>
+          <p>AMC 19th St East 6</p>
+          <p>Sci-fi</p>
+          <p>87 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, friday, tiff">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/Les Indesirablesrz.jpg"alt="Les Indesirables" style="width:100%">
+        </figure>
+          <br>
+          <h4>Les Indésirables</h4>
+          <p>Friday, September 8, 2023</p>
+          <p>Royal Alexandra Theater</p>
+          <p>Drama</p>
+          <p>105 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, saturday, tiff">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/The Convertrz.jpg"alt="The Convert" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Convert</h4>
+          <p>Saturday, September 9, 2023</p>
+          <p>TIFF Bell Lightbox</p>
+          <p>Drama</p>
+          <p>119 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, saturday, tiff">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/A Ravaging Windrz.jpg"alt="A Ravaging Wind" style="width:100%">
+        </figure>
+          <br>
+          <h4>A Ravaging Wind</h4>
+          <p>Saturday, September 9, 2023</p>
+          <p>TIFF Bell Lightbox</p>
+          <p>Drama</p>
+          <p>94 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, sunday, tiff">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/Andragogyrz.jpg"alt="Andragogy" style="width:100%">
+        </figure>
+          <br>
+          <h4>Andragogy</h4>
+          <p>Sunday, September 10, 2023</p>
+          <p>Scotiabank Theatre</p>
+          <p>Drama</p>
+          <p>110 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, sunday, tiff">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/After the Firerz.jpg"alt="After the Fire" style="width:100%">
+        </figure>
+          <br>
+          <h4>After the Fire</h4>
+          <p>Sunday, September 10, 2023</p>
+          <p>TIFF Bell Lightbox</p>
+          <p>Drama</p>
+          <p>96 min</p>
+        </div>
+      </div>   
+
+      <div class="column horror, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/57_A Haunting in Venicerz.jpg"alt="A Haunting in Venice" style="width:100%">
+        </figure>
+          <br>
+          <h4>A Haunting in Venice</h4>
+          <p>Thursday, September 14, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Horror</p>
+          <p>103 min</p>
+        </div>
+      </div>   
+
+      <div class="column comedy, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/58_Dumb Moneyrz.jpg"alt="Dumb Money" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dumb Money</h4>
+          <p>Friday, September 15, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>105 min</p>
+        </div>
+      </div>   
+
+
+      <div class="column action, saturday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/59_The Dark Knightrz.jpg"alt="The Dark Knight" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Dark Knight</h4>
+          <p>Saturday, September 16, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Action</p>
+          <p>152 min</p>
+        </div>
+      </div>   
+
+      <div class="column fantasy, tuesday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/60_Creation of the Gods 1 Kingdom of Stormsrz.jpg"alt="Creation of the Gods 1: Kingdom of Storms" style="width:100%">
+        </figure>
+          <br>
+          <h4>Creation of the Gods 1</h4>
+          <p>Tuesday, September 26, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Fantasy</p>
+          <p>148 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, monday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/Maestrorz.jpg"alt="Maestro" style="width:100%">
+        </figure>
+          <br>
+          <h4>Maestro</h4>
+          <p>Monday, October 2, 2023</p>
+          <p>David Geffen Hall</p>
+          <p>Drama</p>
+          <p>129 min</p>
+        </div>
+      </div>   
+
+      <div class="column animated, tuesday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/61_Paw Patrol The Mighty Movierz.jpg"alt="Paw Patrol: The Mighty Movie" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Mighty Movie</h4>
+          <p>Tuesday, October 4, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Animated</p>
+          <p>88 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/62_Killers of the Flower Moonrz.jpg"alt="Killers of the Flower Moon" style="width:100%">
+        </figure>
+          <br>
+          <h4>Killers of the Flower Moon</h4>
+          <p>Thursday, October 19, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>206 min</p>
+        </div>
+      </div>   
+
+      <div class="column comedy, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/noposter.png"alt="A Real Pain" style="width:100%">
+        </figure>
+          <br>
+          <h4>A Real Pain</h4>
+          <p>Thursday, October 5, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>90 min</p>
+        </div>
+      </div>   
+
+      <div class="column thriller, tuesday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/noposter.png"alt="Relay" style="width:100%">
+        </figure>
+          <br>
+          <h4>Relay</h4>
+          <p>Tuesday, October 17, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Thriller</p>
+          <p>90 min</p>
+        </div>
+      </div>   
+    
+
+      <div class="column animated, tuesday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/63_The Nightmare Before Christmasrz.jpg"alt="Nightmare Before Christmas" style="width:100%">
+        </figure>
+          <br>
+          <h4>Nightmare Before Christmas</h4>
+          <p>Tuesday, October 24, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Animated</p>
+          <p>86 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/64_Priscillarz.jpg"alt="Priscilla" style="width:100%">
+        </figure>
+          <br>
+          <h4>Priscilla</h4>
+          <p>Thursday, October 26, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>110 min</p>
+        </div>
+      </div>   
+
+      <div class="column drama, thursday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/65_Anatomy of a Fallrz.jpg"alt="Anatomy of a Fall" style="width:100%">
+        </figure>
+          <br>
+          <h4>Anatomy of a Fall</h4>
+          <p>Thursday, October 26, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Drama</p>
+          <p>162 min</p>
+        </div>
+      </div>  
+
+      <div class="column comedy, saturday, ts">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/66_Dicks The Musicalrz.jpg"alt="Dicks: The Musical" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dicks: The Musical</h4>
+          <p>Saturday, October 28, 2023</p>
+          <p>AMC Empire 25</p>
+          <p>Comedy</p>
+          <p>86 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, monday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/All the Light We Cannot See.jpg"alt="All the Light We Cannot See" style="width:100%">
+        </figure>
+          <br>
+          <h4>All the Light We Cannot See</h4>
+          <p>Monday, October 30, 2023</p>
+          <p>The Paris Theater</p>
+          <p>Drama</p>
+          <p>144 min</p>
+        </div>
+      </div>  
+
+      <div class="column fantasy, tuesday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/67_The Marvelsrz.jpg"alt="The Marvels" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Marvels</h4>
+          <p>Tuesday, November 14, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>105 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, thursday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/68_Saltburnrz.jpg"alt="Saltburn" style="width:100%">
+        </figure>
+          <br>
+          <h4>Saltburn</h4>
+          <p>Thursday, November 16, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>130 min</p>
+        </div>
+      </div>  
+
+      <div class="column comedy, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/69_Next Goal Winsrz.jpg"alt="Next Goal Wins" style="width:100%">
+        </figure>
+          <br>
+          <h4>Next Goal Wins</h4>
+          <p>Saturday, November 18, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>104 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, thursday, 34th">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/70_Napoleonrz.jpg"alt="Napoleon" style="width:100%">
+        </figure>
+          <br>
+          <h4>Napoleon</h4>
+          <p>Thursday, November 23, 2023</p>
+          <p>AMC 34th Street 14</p>
+          <p>Drama</p>
+          <p>157 min</p>
+        </div>
+      </div>  
+
+      <div class="column comedy, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/71_Dream Scenariorz.jpg"alt="Dream Scenario" style="width:100%">
+        </figure>
+          <br>
+          <h4>Dream Scenario</h4>
+          <p>Friday, November 24, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Comedy</p>
+          <p>101 min</p>
+        </div>
+      </div>  
+
+      <div class="column fantasy, tuesday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/72_The Hunger Games The Ballad of Songbirds and Snakesrz.jpg"alt="The Hunger Games: The Ballad of Songbirds and Snakes" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Hunger Games</h4>
+          <p>Tuesday, November 28, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>157 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, thursday, misc">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/The Curse.jpg"alt="The Curse" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Curse</h4>
+          <p>Thursday, November 30, 2023</p>
+          <p>Walter Reade Theater</p>
+          <p>Drama</p>
+          <p>140 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, saturday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/73_Poor Thingsrz.jpg"alt="Poor Things" style="width:100%">
+        </figure>
+          <br>
+          <h4>Poor Things</h4>
+          <p>Saturday, December 9, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>141 min</p>
+        </div>
+      </div>  
+
+      <div class="column animated, sunday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/74_The Boy and the Heronrz.jpg"alt="The Boy and the Heron" style="width:100%">
+        </figure>
+          <br>
+          <h4>The Boy and the Heron</h4>
+          <p>Sunday, December 10, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Animated</p>
+          <p>124 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/75_American Fictionrz.jpg"alt="American Fiction" style="width:100%">
+        </figure>
+          <br>
+          <h4>American Fiction</h4>
+          <p>Friday, December 15, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>117 min</p>
+        </div>
+      </div>  
+
+      <div class="column fantasy, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/76_Wonkarz.jpg"alt="Wonka" style="width:100%">
+        </figure>
+          <br>
+          <h4>Wonka</h4>
+          <p>Friday, December 15, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Fantasy</p>
+          <p>116 min</p>
+        </div>
+      </div>  
+
+      <div class="column drama, friday, ls">
+        <div class="content">
+        <figure class="poster">
+          <img src="../project-03/img/77_Zone of Interestrz.jpg"alt="Zone of Interest" style="width:100%">
+        </figure>
+          <br>
+          <h4>Zone of Interest</h4>
+          <p>Friday, December 15, 2023</p>
+          <p>AMC Lincoln Square 13</p>
+          <p>Drama</p>
+          <p>105 min</p>
+        </div>
+      </div>  
+
+  <!-- END MOVIE POSTER GRID -->
+  </div>   
+</section>
+</body>
+</html>
