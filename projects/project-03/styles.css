@@ -104,7 +104,14 @@ section.second {
     line-height: 24px;
     word-break: break-all;
   }
-  
+
+  h5 {
+    color: #F6566D;
+    font-size: 14px;
+    line-height: 24px;
+    word-break: break-all;
+    margin-left: 10px;
+  }
 
   /*--------------------*/
   .main {
@@ -158,31 +165,6 @@ section.second {
 
   /*--------------------*/
   /* FILTER BUTTONS */
-  .btn {
-    font-family: 'Raleway', sans-serif;
-    color: #F6566D;
-    width: 85px;
-    height: 35px;
-    margin-left: 10px;
-    border: 2px solid #F6566D;
-    border-radius: 12px;
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    transform: translateY(6px) translateX(6px);
-    box-shadow: 3px 3px #F6566D;
-    transition: .5s ease;
-    text-decoration: underline;
-  }
-  
-  .btn:active {
-    background-color: #F6566D;
-    color: white;
-  }
-  
-  /*--------------------*/
   .btn-genre {
     font-family: 'Raleway', sans-serif;
     color: #F6566D;
