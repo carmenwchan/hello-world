@@ -109,7 +109,7 @@
   color: #F6566D;
   font-size: 14px;
   line-height: 24px;
-  word-break: break-all;
+  word-wrap: break-all;
   margin-left: 15px;
   }
 
@@ -118,7 +118,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  word-break: break-all;
+  word-wrap: break-all;
   margin-left: 15px;
   }
 
@@ -287,7 +287,7 @@
 
   /*--------------------*/
 
-@media only screen and (max-width : 820px) {
+  @media only screen and (max-width : 820px) {
   .grid {
   display: inline-flex;
   }
@@ -311,6 +311,21 @@
   .column {
   float: left;
   width: 100%;
+  }
+  }
+
+  @media only screen and (min-width : 821px) and (max-width:1023px){
+  .image-container1{
+  display: none;
+  }
+
+  .image-container5{
+  display: none;
+  }
+
+  .column {
+  float: left;
+  width: 33.33%;
   }
   }
 
